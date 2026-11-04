@@ -1,0 +1,8 @@
+$ javac -d target/manual src/main/java/co/llanosoft/mercadocampesino/*.java tools/VerificacionLocal.java
+$ java -cp target/manual VerificacionLocal
+PASS CP-01 reserva valida descuenta stock
+PASS CP-02 cantidad cero rechazada sin descuento
+PASS CP-04 no permite sobre-reserva
+PASS CP-05 cierre exacto 18:00 Colombia
+PASS CP-07 solicitudes simultaneas para ultima unidad
+RESULTADO: 5/5 verificaciones locales superadas.
